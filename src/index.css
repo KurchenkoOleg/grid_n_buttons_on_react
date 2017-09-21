@@ -1,0 +1,68 @@
+.myCompo{
+  position: relative;
+  margin: 50px;
+  display: inline-block;
+}
+
+.myCompo__table {
+  border: 1px solid rgb(72,170,230);
+}
+
+.myCompo__cell {
+  background: rgb(72,170,230);
+  border: none;
+  width: 49px;
+  height: 50px;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.myCompo__btn {
+  border: none;
+  width: 50px;
+  height: 50px;
+  font-size: 130%;
+  color: white;
+  position: absolute;
+}
+
+.myCompo__btn-fade {
+  opacity: 1;
+  transition: opacity 2.0s ease;
+  cursor: pointer;
+}
+
+.myCompo__btn-fade:hover {
+  opacity: 0.5;
+}
+
+.myCompo__btn-add{
+  background: rgb(243,165,0);
+}
+
+.myCompo__btn-add-col {
+  margin-top: 3px;
+  margin-left: 2px;
+  left: 100%;
+  top: 0;
+}
+
+.myCompo__btn-add-row {
+  margin-top: 2px;
+  margin-left: 3px;
+  top: 100%;
+}
+
+.myCompo__btn-remove {
+  background: rgb(178,0,0);
+}
+
+.myCompo__btn-remove-col {
+  margin-top: -52px;
+  margin-left: 1px;
+}
+
+.myCompo__btn-remove-row {
+  margin-left: -52px;
+}
